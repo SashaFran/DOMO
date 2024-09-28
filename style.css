@@ -13,6 +13,7 @@ nav{
     height: 2vw;
     display: block;
     margin: 0 auto;
+    max-width: 100%;
     }
 }
 .navbar-toggler-icon{
@@ -45,5 +46,18 @@ main{
         p{
             font-size: 1.2rem;
         }
+    }
+}
+@media (max-width: 768px) {
+    .spinner {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .spinner {
+        width: 15px;
+        height: 15px;
     }
 }
